@@ -1,0 +1,155 @@
+body {
+  background-color: #111827;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 16rem;
+  background-color: #1f2937;
+  padding: 1.5rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #a78bfa;
+}
+
+.logo-highlight {
+  color: #60a5fa;
+}
+
+.menu .nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: white;
+  transition: background 0.3s;
+}
+
+.menu .nav-link:hover {
+  background-color: #374151;
+}
+
+.menu .nav-link.active {
+  background-color: #7c3aed;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #374151;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  margin-left: 0.5rem;
+  color: white;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stat-box {
+  background-color: #1f2937;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.stat-label {
+  font-size: 1.25rem;
+}
+
+.stat-value {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.purple {
+  color: #a78bfa;
+}
+
+.blue {
+  color: #60a5fa;
+}
+
+.section-box {
+  background-color: #1f2937;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+   color: #60a5fa;
+}
+
+.section-subtitle {
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin-bottom: 1rem;
+}
+
+.topic-list {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #374151;
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+}
+
+.button.ask {
+  margin-top: 1rem;
+  background-color: #7c3aed;
+}
+
+.button.ask:hover {
+  background-color: #6d28d9;
+}
+
+.response {
+  background-color: #374151;
+  padding: 1rem;
+  border-radius: 0.375rem;
+  margin-top: 1rem;
+  white-space: pre-wrap;
+  font-size: 0.875rem;
+}

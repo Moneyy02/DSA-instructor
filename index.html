@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Mentor AI</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2 class="logo">Code Mentor <span class="logo-highlight">AI</span></h2>
+      <nav class="menu">
+        <a href="#" class="nav-link active">Dashboard</a>
+        <a href="#" class="nav-link">History</a>
+        <a href="#" class="nav-link">Tutorials</a>
+        <a href="#" class="nav-link">Playground</a>
+        <a href="#" class="nav-link">Settings</a>
+      </nav>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+      <div class="header">
+        <h1 class="title">Coding Instructor <span class="logo-highlight">AI</span></h1>
+        <div class="header-buttons">
+          <button class="button">Profile</button>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats">
+        <div class="stat-box">
+          <p class="stat-label">Questions Solved</p>
+          <p class="stat-value purple">1,248</p>
+        </div>
+        <div class="stat-box">
+          <p class="stat-label">Languages</p>
+          <p class="stat-value blue">24</p>
+        </div>
+      </div>
+
+      <!-- Topics -->
+      <div class="section-box">
+        <h2 class="section-title">Popular Topics</h2>
+        <ul class="topic-list">
+          <li>JavaScript Closures</li>
+          <li>Python Decorators</li>
+          <li>React Hooks</li>
+          <li>Recursion Patterns</li>
+          <li>Async/Await</li>
+        </ul>
+      </div>
+
+      <!-- Ask Question -->
+      <div class="section-box">
+        <h2 class="section-title">Ask a Coding Question</h2>
+        <p class="section-subtitle">Ask any DSA-related coding question.</p>
+        <input type="text" id="question" class="input" placeholder="Enter your coding question...">
+        <button id="askBtn" class="button ask">Ask</button>
+        <pre id="response" class="response"></pre>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
