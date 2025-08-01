@@ -10,7 +10,7 @@ document.getElementById("askBtn").addEventListener("click", async () => {
   responseArea.textContent = "Thinking...";
 
   try {
-    const res = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCT_BxdWPsyQiRoBmBuIb56AReb5tsXiuE", {
+    const res = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api key}", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
